@@ -122,11 +122,6 @@
     </div>
 
     
-    <div class="waveWrapper">
-        <div class="wave wave_before" style="background-image: url('/img/wave-light.png')"></div>
-        <div class="wave wave_after" style="background-image: url('/img/wave-light.png')"></div>
-    </div>
-    
 </header>
 
 	
@@ -178,6 +173,13 @@
 
                         
                         <li>
+                            <a href="/categories/">Categories</a>
+                        </li>
+                        
+                    
+
+                        
+                        <li>
                             <a href="/photography/">Photography</a>
                         </li>
                         
@@ -189,18 +191,7 @@
                         </li>
                         
                     
-
-                        
-                        <li>
-                            <a href="/categories/">Categories</a>
-                        </li>
-                        
                     
-                    
-                    
-                    <li>
-                        <a href="YOUR_CHINESE_BLOG_URL" target="_blank">Chinese Blog</a>
-                    </li>
                     
                 </ul>
             </div>
@@ -253,7 +244,19 @@
                 col-xs-12
                 post-container
             ">
-                <blockquote>
+                <h1 id=""><a href="#" class="headerlink" title=" "></a> </h1><h1 id="About-This-Blog"><a href="#About-This-Blog" class="headerlink" title="About This Blog"></a>About This Blog</h1><h3 id="Reasons-for-writing-blogs"><a href="#Reasons-for-writing-blogs" class="headerlink" title="Reasons for writing blogs"></a>Reasons for writing blogs</h3><p>I’ve always known the importance of taking notes, and indeed, I take a lot of notes whenever I learn something new. However, I gradually realized that the way I’m taking notes is too casual. Oftentimes, I just wrote down what I’ve learned word by word without thinking hard about the subject. And after I took those notes, I rarely refer back to them since they are hardly well-organized and less enjoyable to read. <strong>Simply put, <code>ctrl + c &amp; ctrl + v != learning</code>!</strong></p>
+<p>As a result, taking notes did not benefit me much since two important steps are missing here:</p>
+<ol>
+<li>summarizing what I’ve learned into a well-organized easy-to-read format</li>
+<li>frequent reviewing to reinforce them in my brains (since memory is repetition and reinforcement)</li>
+</ol>
+<p>Writing blogs would be a perfect way of ensuring that I never skip these two steps.</p>
+<h3 id="What-this-blog-is-about"><a href="#What-this-blog-is-about" class="headerlink" title="What this blog is about"></a>What this blog is about</h3><p>In this blog, I’ll be writing everything I learned, mostly about backend development, since that’s where my interest lies.</p>
+<p>I’ll also try to document some of my thoughts on life or books since <strong>we think while we write</strong>.</p>
+<h1 id="About-Me"><a href="#About-Me" class="headerlink" title="About Me"></a>About Me</h1><h3 id="Education"><a href="#Education" class="headerlink" title="Education"></a>Education</h3><p><strong>B.S. in Computer Science</strong>, <em>University of Minnesota, Twin Cities</em> <strong>(GPA: 4.0)</strong> </p>
+<p><strong>B.S. in Aerospace Engineering</strong>, <em>Huazhong University of Sci &amp; Tech</em> <strong>(GPA: 3.91)</strong></p>
+<p><em><strong>… There’s more to come …</strong></em></p>
+<blockquote>
 <p>The scenery we often see is that a person always looks up and envy the happiness of others, but finds that he is being looked up and envious. In fact, everyone is happy, but your happiness is often in the eyes of others.<br>&nbsp;<br>Life is a one-way trip. Even if there are some regrets, we have no chance to start all over again. It is better to smile and cherish the future than to confuse the past, because life is not as if.<br>&nbsp;<br>Don’t think too much, just do it now.</p>
 </blockquote>
 
@@ -375,24 +378,6 @@
       
     </ul>
   </div>
-
-        <hr>
-    
-        <!-- Friends Blog -->
-
-<h5>FRIENDS</h5>
-<ul class="list-inline">
-
-    
-        <li><a href="https://blog.csdn.net/d_Nail" target="_blank">Dusign&#39;s Blog</a></li>
-    
-        <li><a href="#" target="_blank">Dusign&#39;s Web</a></li>
-    
-        <li><a href="https://github.com/dusign" target="_blank">Dusign&#39;s Github</a></li>
-    
-        <li><a href="#" target="_blank">Other</a></li>
-    
-</ul>
 
         <hr>
     
@@ -579,20 +564,26 @@
     <script type="text/javascript" src="/js/toc.js?v=1.0.0" async=""></script>
 
     
-        <!-- background effects line -->
-        
-
-        
-            <script type="text/javascript" src="/js/mouse-click.js" content='[&#34;🌱&#34;,&#34;just do it&#34;,&#34;🍀&#34;]' color='[&#34;rgb(121,93,179)&#34; ,&#34;rgb(76,180,231)&#34; ,&#34;rgb(184,90,154)&#34;]'></script>
-        
-
-        <!-- background effects end -->
-    
 
     <!--<script size="50" alpha='0.3' zIndex="-999" src="/js/ribbonStatic.js"></script>-->
     
         <script src="/js/ribbonDynamic.js"></script>
     
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.6/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </body>
 
 </html>
