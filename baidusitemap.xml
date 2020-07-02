@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://jonathanzhang98.github.io/2020/07/01/Pods%20in%20Kubernetes/</loc>
+    <lastmod>2020-07-02</lastmod>
+  </url>  <url>
     <loc>https://jonathanzhang98.github.io/2019/11/01/Hexo-Theme-Snail/</loc>
-    <lastmod>2020-06-29</lastmod>
+    <lastmod>2020-07-02</lastmod>
   </url>
 </urlset>
